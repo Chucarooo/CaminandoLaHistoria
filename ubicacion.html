@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminando la Historia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="encabezado">
+            <img src="img/logo.JPEG" alt="Logo de la Escuela" class="logo">
+
+            <div class="titulos">
+                <h1>Caminando la Historia</h1>
+                <h2>IPEM 109 Jerónimo Luis de Cabrera Anexo La Argentina.</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-toggle">☰</div>
+        <ul>
+             <li><a href="index.html">Inicio</a></li>
+
+            <li><a href="minas.html">Las Minas</a></li>
+            <li><a href="ubicacion.html" class="activo">Viví la experiencia</a></li>
+
+        </ul>
+    </nav>
+
+    
+
+    <main>
+        <main>
+
+    <section class="hero-visita">
+
+        <h2>Viví la experiencia</h2>
+
+        <p>
+
+            Ahora que conocés la historia de las antiguas minas de La Argentina, te invitamos a descubrir este maravilloso lugar en persona.
+
+            Caminar por sus senderos es una oportunidad para conectar con el patrimonio histórico, la naturaleza y las historias que marcaron el desarrollo de nuestra región.
+
+        </p>
+
+    </section>
+
+
+    <section class="video">
+
+        <h2>Conocé las Minas</h2>
+
+        <!-- Reemplazar por el video correspondiente -->
+
+        <video controls>
+
+            <source src="img/minas.mp4" type="video/mp4">
+
+            Tu navegador no admite videos.
+
+        </video>
+
+    </section>
+
+
+    <section class="ubicacion">
+
+        <h2>¿Dónde estamos?</h2>
+
+        <p>
+
+            La Argentina se encuentra en el departamento Minas, al oeste de la provincia de Córdoba.
+
+        </p>
+
+        <!-- PEGAR AQUÍ EL IFRAME DE GOOGLE MAPS -->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.2206032325264!2d-65.30530545290954!3d-31.222080134184786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942c5a1d0ef4f21f%3A0xd7fcb14518f4ad3!2sLa%20Argentina%2C%20C%C3%B3rdoba!5e1!3m2!1ses-419!2sar!4v1782911424662!5m2!1ses-419!2sar" 
+         width="600" 
+         height="450" 
+         style="border:0;" 
+         allowfullscreen="" 
+         loading="lazy" 
+         referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+
+
+        
+
+        <a class="boton-mapa"
+   href="https://www.google.com/maps/dir/?api=1&destination=-31.222080,-65.305305&travelmode=driving"
+   target="_blank">
+
+   🧭 Cómo llegar
+</a>
+
+    </section>
+
+
+    <section class="guia">
+
+        <h2>¿Querés conocer la historia?</h2>
+
+        <p>
+
+            La historia cobra vida cuando se la recorre.
+
+        </p>
+
+        <p>
+
+            Si visitás la localidad, <strong>buscanos como guía</strong>.
+
+            Será un gusto acompañarte durante el recorrido y compartir la historia de las antiguas minas, sus protagonistas y las curiosidades que hicieron de este lugar un sitio único del oeste cordobés.
+
+        </p>
+
+    </section>
+
+
+    <section class="recomendaciones">
+
+        <h2>Antes de venir...</h2>
+
+        <ul>
+
+            <li>🥾 Utilizá calzado cómodo.</li>
+
+            <li>💧 Llevá agua.</li>
+
+            <li>🧢 Usá protector solar o gorra.</li>
+
+            <li>🌿 Respetá el patrimonio natural e histórico.</li>
+
+            <li>📸 Disfrutá del paisaje y compartí tu experiencia.</li>
+
+        </ul>
+
+    </section>
+
+</main>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Caminando la Historia | IPEM 109 Jerónimo Luis de Cabrera Anexo La Argentina.</p>
+    </footer>
+
+
+
+<script>
+    const btn = document.querySelector(".menu-toggle");
+    const menu = document.querySelector("nav ul");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("show");
+    });
+</script>    
+</body>
+
+</html>

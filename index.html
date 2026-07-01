@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminando la Historia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="encabezado">
+            <img src="img/logo.JPEG" alt="Logo de la Escuela" class="logo">
+
+            <div class="titulos">
+                <h1>Caminando la Historia</h1>
+                <h2>IPEM 109 Jerónimo Luis de Cabrera Anexo La Argentina.</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+    <div class="menu-toggle">☰</div>
+
+    <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="minas.html">Las Minas</a></li>
+        <li><a href="ubicacion.html">Viví la experiencia</a></li>
+    </ul>
+</nav>
+
+    <section class="carrusel">
+        <div class="slides">
+            <img src="img/Escuela..jpeg" alt="Imagen 1">
+            <img src="img/Cerro, Creo..jpeg" alt="Imagen 2">
+            <img src="img/Iglesia.jpeg" alt="Imagen 3">
+        </div>
+    </section>
+
+   <main>
+    <section class="presentacion">
+        <h2>Caminando la Historia...</h2>
+
+        <div class="bloque-texto">
+            <p>
+                Caminando la Historia es un proyecto educativo que busca conocer,
+                valorar y difundir la historia de nuestra comunidad a través de
+                recorridos, investigaciones y actividades realizadas por los estudiantes.
+            </p>
+
+            <p>
+                Mediante este trabajo, los alumnos descubren lugares,
+                acontecimientos y personajes importantes que forman parte
+                de la identidad local.
+            </p>
+
+            <p>
+                El proyecto promueve la participación activa, el trabajo en equipo
+                y el compromiso con la preservación de la memoria histórica.
+            </p>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 - Caminando la Historia | IPEM 109 Jerónimo Luis de Cabrera Anexo La Argentina.</p>
+    </footer>
+
+
+
+<script>
+    const btn = document.querySelector(".menu-toggle");
+    const menu = document.querySelector("nav ul");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("show");
+    });
+</script>
+
+
+    
+</body>
+
+</html>

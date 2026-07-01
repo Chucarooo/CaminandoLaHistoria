@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminando la Historia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="encabezado">
+            <img src="img/logo.JPEG" alt="Logo de la Escuela" class="logo">
+
+            <div class="titulos">
+                <h1>Caminando la Historia</h1>
+                <h2>IPEM 109 Jerónimo Luis de Cabrera Anexo La Argentina.</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-toggle">☰</div>
+        <ul>
+             <li><a href="index.html">Inicio</a></li>
+
+            <li><a href="minas.html" class="activo">Las Minas</a></li>
+            <li><a href="ubicacion.html">Viví la experiencia</a></li>
+
+        </ul>
+    </nav>
+
+    
+
+    <main>
+        <section class="presentacion-minas">
+ <h2>Las Minas de La Argentina</h2>
+ <p>
+ Durante muchos años, la actividad minera fue una de las principales fuentes de
+desarrollo económico de esta región. La extracción de plata atrajo trabajadores, impulsó
+el crecimiento de la localidad y dejó un importante patrimonio histórico que aún puede
+conocerse a través de sus antiguos yacimientos.
+ </p>
+ 
+</section>
+
+<section class="historia">
+ <article>
+ <h2>Los primeros trabajos mineros</h2>
+ <p>
+ Poco tiempo después de la fundación de la ciudad de Córdoba, el gobernador
+Jerónimo Luis de Cabrera organizó una expedición hacia el valle transerrano. Entre sus
+integrantes se encontraba el capitán Hernán Mejía de Miraval, acompañado por el minero
+español Hernando Romero, cuya misión era descubrir vetas de minerales.
+ </p>
+ <p>
+ Gracias a estas exploraciones comenzaron a explotarse algunos yacimientos
+ubicados en la región que hoy pertenece al departamento Minas. Aquellos primeros
+trabajos dieron origen a una actividad minera que se desarrolló durante varios siglos y
+dejó una profunda huella en la historia de la localidad La Argentina.
+ </p>
+ </article>
+ <figure>
+ <img src="img/mina1.jpg"
+ alt="Vista exterior de una de las minas de La Argentina">
+ <figcaption>
+ Figura 1. Vista exterior de una de las minas de La Argentina.
+ </figcaption>
+ </figure>
+</section>
+
+<section class="plata">
+ <figure>
+ <img src="img/mina2.jpg"
+ alt="Vista interior de una de las minas de La Argentina">
+ <figcaption>
+ Figura 2. Vista interior de una de las minas de La Argentina.
+ </figcaption>
+ </figure>
+ <article>
+ <h2>La explotación de la plata</h2>
+ <p>
+ Durante el siglo XIX, la Mina La Argentina fue una de las explotaciones de plata más
+importantes de la provincia de Córdoba. En esta región se extrajeron importantes
+cantidades de mineral que luego eran enviadas para su procesamiento.
+ </p>
+ <p>
+ Uno de los mayores inconvenientes era la acumulación de agua en el interior de la
+mina. Para continuar con la explotación fue necesario traer desde Europa un gran motor a
+vapor, transportado durante semanas en carros tirados por bueyes.
+ </p>
+ <p>
+ Gracias a este motor fue posible desagotar la mina y reanudar los trabajos. Sin
+embargo, poco tiempo después el agua volvió a inundar las galerías y la explotación dejó
+de realizarse de manera permanente.
+ </p>
+ </article>
+</section>
+<aside class="curiosidad">
+ <h3>¿Sabías que...?</h3>
+ <p>
+ Después de instalar el motor a vapor, los propietarios lograron recuperar rápidamente
+la inversión realizada gracias a la cantidad de plata extraída. Sin embargo, la mina volvió a
+inundarse y nunca volvió a explotarse con la misma intensidad.
+ </p>
+</aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Caminando la Historia | IPEM 109 Jerónimo Luis de Cabrera Anexo La Argentina.</p>
+    </footer>
+
+
+<script>
+    const btn = document.querySelector(".menu-toggle");
+    const menu = document.querySelector("nav ul");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("show");
+    });
+</script>    
+</body>
+
+</html>
